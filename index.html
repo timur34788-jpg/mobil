@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport: safe-area desteği ve iOS zoom engeli -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Nature.co</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Android tema rengi -->
+    <meta name="theme-color" content="#10b981" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Nature.co" />
+
+    <!-- iOS ikonları -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://placehold.co/180x180/10b981/ffffff?text=N" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://placehold.co/152x152/10b981/ffffff?text=N" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://placehold.co/120x120/10b981/ffffff?text=N" />
+
+    <!-- iOS Splash Screens (portrait) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" href="https://placehold.co/1290x2796/0B0E11/10b981?text=Nature.co" />
+    <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" href="https://placehold.co/1170x2532/0B0E11/10b981?text=Nature.co" />
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="https://placehold.co/750x1334/0B0E11/10b981?text=Nature.co" />
+
+    <!-- SEO & Open Graph -->
+    <meta name="description" content="Nature.co — Ekosisteminizin merkezi" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Önbellek kontrolü -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
